@@ -43,7 +43,7 @@ jobs:
       - run:
           name: run tests
           command: |
-	    cd src; ./build.sh
+            cd src; ./build.sh
 
       - store_artifacts:
           path: test-reports

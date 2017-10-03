@@ -44,7 +44,7 @@ jobs:
       - run:
           name: run tests
           command: |
-            cd src; ./build.sh
+            cd src; ./build.sh; ./hello.exe
 
       - store_artifacts:
           path: test-reports

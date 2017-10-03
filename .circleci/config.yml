@@ -43,9 +43,7 @@ jobs:
       - run:
           name: run tests
           command: |
-#            . venv/bin/activate
-#        python manage.py test
-	 cd src; ./build.sh
+	    cd src; ./build.sh
 
       - store_artifacts:
           path: test-reports
